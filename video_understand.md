@@ -20,7 +20,7 @@ Exploiting Feature and Class Relationships in Video Categorization with Regulari
 The "something something" video database for learning and evaluating visual common sense | [PDF][p10] | [Link][l10] | action with objects |  108,499 | 174 | ~4s | TwentyBN | Something-Something
 Moments in Time Dataset: one million videos for event understanding | [PDF][p7] | [Link][l7] | action or activity | ~1 million | 339 | 3s | MIT-IBM Watson | Moments in Time
 HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization | [PDF][p11] | [Link][l11] | recognition and localization | 520K | 200 | ~30.6s | MIT and Facebook | SLAC
-# Action Recognition
+## Action Recognition
 Title | Paper | Website | Examples | Category | Organizer | Dataset
 --------|-------|---------|-----------|-----------|-----------------
 ActivityNet: A Large-Scale Video Benchmark for Human Activity Understanding| [PDF][p8] | [Link][l8] | ~20,000 | Temporal Action Detection | ActivityNet| ActivityNet v1.3

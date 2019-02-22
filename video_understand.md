@@ -1,10 +1,10 @@
 # 视频内容理解方面的paper,code,dataset
 
-Video Understanding
-  *Video Classification
-  *Action Recognition
-  -Video Captioning
-  -Temporal Action Detection
+* Video Understanding
+  * Video Classification
+  * Action Recognition
+  - Video Captioning
+  - Temporal Action Detection
 
 **Note: ActivityNet v1.3, Kinetics-600, Moments in time, AVA will be used at [ActivityNet challenge 2018](http://activity-net.org/challenges/2018/)**
 

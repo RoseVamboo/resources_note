@@ -9,19 +9,17 @@
 ## Video Classification
  title | Paper | Website | Category | #Examples |#Classes | Duration | Organizer | Dataset
 -------|-------|---------|----------|-----------|---------|----------|-----------|-----------------
-UCF101: A Dataset of 101 Human Actions
-Classes From Videos in The Wild | [PDF][p1] | [Link][l1] | human action | 13,320 | 101 | <10s | UCF | UCF101
+UCF101: A Dataset of 101 Human Actions Classes From Videos in The Wild | [PDF][p1] | [Link][l1] | human action | 13,320 | 101 | <10s | UCF | UCF101
 HMDB: A Large Video Database for Human Motion Recognition | [PDF][p2] | [Link][l2] | human action | 6,766 | 51 | <10s | Brown | HMDB51
-ActivityNet: A Large-Scale Video Benchmark for Human Activity
-Understanding | [PDF][p8] | [Link][l8] | human activities | ~20,000 | 200 | - | ActivityNet | ActivityNet v1.3
+ActivityNet: A Large-Scale Video Benchmark for Human Activity Understanding | [PDF][p8] | [Link][l8] | human activities | ~20,000 | 200 | - | ActivityNet | ActivityNet v1.3
 Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding | [PDF][p4] | [Link][l4] | daily human activities | 9,848 | 157 | - | AI2 | Charades
 The Kinetics Human Action Video Dataset | [PDF][p3] | [Link][l3] | human action | ~500,000 | 600 |  10s  | DeepMind  | Kinetics
 Large-scale Video Classification with Convolutional Neural Networks | [PDF][p5] | [Link][l5] | sports | ~1 million | 478 | 5m36s | Google & Stanford | Sports-1M
-YouTube-8M | [PDF][p6] | [Link][l6] | visual contents | ~7 million | 4716 | 120-500s | Google Cloud | YouTube-8M
-FCVID | [PDF][p9] | [Link][l9] | visual contents |  91,223 | 239 | 100s+ | Fudan-Columbia | FCVID
-Something-Something | [PDF][p10] | [Link][l10] | action with objects |  108,499 | 174 | ~4s | TwentyBN | Something-Something
-**Moments in Time** | [PDF][p7] | [Link][l7] | action or activity | ~1 million | 339 | 3s | MIT-IBM Watson | Moments in Time
-SLAC | [arXiv][p11] | [Link][l11] | recognition and localization | 520K | 200 | ~30.6s | MIT and Facebook | SLAC
+YouTube-8M: A Large-Scale Video Classification Benchmark | [PDF][p6] | [Link][l6] | visual contents | ~7 million | 4716 | 120-500s | Google Cloud | YouTube-8M
+Exploiting Feature and Class Relationships in Video Categorization with Regularized Deep Neural Networks | [PDF][p9] | [Link][l9] | visual contents |  91,223 | 239 | 100s+ | Fudan-Columbia | FCVID
+The "something something" video database for learning and evaluating visual common sense | [PDF][p10] | [Link][l10] | action with objects |  108,499 | 174 | ~4s | TwentyBN | Something-Something
+Moments in Time Dataset: one million videos for event understanding | [PDF][p7] | [Link][l7] | action or activity | ~1 million | 339 | 3s | MIT-IBM Watson | Moments in Time
+HACS: Human Action Clips and Segments Dataset for Recognition and Temporal Localization | [PDF][p11] | [Link][l11] | recognition and localization | 520K | 200 | ~30.6s | MIT and Facebook | SLAC
 
 ## Temporal Action Detection
 Dataset | Paper | Website | Examples | Organizer | Dataset

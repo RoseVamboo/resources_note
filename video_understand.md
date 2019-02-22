@@ -7,50 +7,52 @@
   - Temporal Action Detection
 
 ## Video Classification
-Dataset | Paper | Website | Category | #Examples |#Classes | Duration | Organizer | SOTA performance
---------|-------|---------|----------|-----------|---------|----------|-----------|-----------------
-UCF101  | [PDF][p1] | [Link][l1] | human action | 13,320 | 101 | <10s | UCF | 98% (DeepMind I3D)
-HMDB51  | [PDF][p2] | [Link][l2] | human action | 6,766 | 51 | <10s | Brown | 80.7% (DeepMind I3D)
-**ActivityNet v1.3**| [PDF][p8] | [Link][l8] | human activities | ~20,000 | 200 | - | ActivityNet | 8.83% err (iBUG)
-Charades | [PDF][p4] | [Link][l4] | daily human activities | 9,848 | 157 | - | AI2 | 0.3441 mAP (DeepMind I3D)
-**Kinetics** | [PDF][p3] | [Link][l3] | human action | ~500,000 | 600 |  10s  | DeepMind  | -
-Sports-1M | [PDF][p5] | [Link][l5] | sports | ~1 million | 478 | 5m36s | Google & Stanford | -
-YouTube-8M | [PDF][p6] | [Link][l6] | visual contents | ~7 million | 4716 | 120-500s | Google Cloud | 85% GAP (WILLOW)
-FCVID | [PDF][p9] | [Link][l9] | visual contents |  91,223 | 239 | 100s+ | Fudan-Columbia | - 
-Something-Something | [PDF][p10] | [Link][l10] | action with objects |  108,499 | 174 | ~4s | TwentyBN | - 
-**Moments in Time** | [PDF][p7] | [Link][l7] | action or activity | ~1 million | 339 | 3s | MIT-IBM Watson | -
-SLAC | [arXiv][p11] | [Link][l11] | recognition and localization | 520K | 200 | ~30.6s | MIT and Facebook | - 
+ title | Paper | Website | Category | #Examples |#Classes | Duration | Organizer | Dataset
+-------|-------|---------|----------|-----------|---------|----------|-----------|-----------------
+UCF101: A Dataset of 101 Human Actions
+Classes From Videos in The Wild | [PDF][p1] | [Link][l1] | human action | 13,320 | 101 | <10s | UCF | UCF101
+HMDB: A Large Video Database for Human Motion Recognition | [PDF][p2] | [Link][l2] | human action | 6,766 | 51 | <10s | Brown | HMDB51
+ActivityNet: A Large-Scale Video Benchmark for Human Activity
+Understanding | [PDF][p8] | [Link][l8] | human activities | ~20,000 | 200 | - | ActivityNet | ActivityNet v1.3
+Hollywood in Homes: Crowdsourcing Data Collection for Activity Understanding | [PDF][p4] | [Link][l4] | daily human activities | 9,848 | 157 | - | AI2 | Charades
+The Kinetics Human Action Video Dataset | [PDF][p3] | [Link][l3] | human action | ~500,000 | 600 |  10s  | DeepMind  | Kinetics
+Large-scale Video Classification with Convolutional Neural Networks | [PDF][p5] | [Link][l5] | sports | ~1 million | 478 | 5m36s | Google & Stanford | Sports-1M
+YouTube-8M | [PDF][p6] | [Link][l6] | visual contents | ~7 million | 4716 | 120-500s | Google Cloud | YouTube-8M
+FCVID | [PDF][p9] | [Link][l9] | visual contents |  91,223 | 239 | 100s+ | Fudan-Columbia | FCVID
+Something-Something | [PDF][p10] | [Link][l10] | action with objects |  108,499 | 174 | ~4s | TwentyBN | Something-Something
+**Moments in Time** | [PDF][p7] | [Link][l7] | action or activity | ~1 million | 339 | 3s | MIT-IBM Watson | Moments in Time
+SLAC | [arXiv][p11] | [Link][l11] | recognition and localization | 520K | 200 | ~30.6s | MIT and Facebook | SLAC
 
 ## Temporal Action Detection
-Dataset | Paper | Website | #Examples | Organizer | SOTA performance
+Dataset | Paper | Website | Examples | Organizer | Dataset
 --------|-------|---------|-----------|-----------|-----------------
-THUMOS2014 | [PDF][t1] | [Link][d1] | 9.682 | UCF| -
-ActivityNet(v1.3) | [PDF][p8] | [Link][l8] | ~20,000 | ActivityNet| 0.344(SJTU & Columbia )
-Broad Video Highlights | - | [Link][d2] | 18000 | Baidu | -
+THUMOS2014 | [PDF][t1] | [Link][d1] | 9.682 | UCF| THUMOS2014
+ActivityNet(v1.3) | [PDF][p8] | [Link][l8] | ~20,000 | ActivityNet| ActivityNet v1.3
+Broad Video Highlights | - | [Link][d2] | 18000 | Baidu | Broad Video Highlights
 
 ## Spatio-temporally Localized Atomic Visual Actions
-Dataset | Paper | Website | #Examples |  #Classes | Organizer | SOTA performance
+Dataset | Paper | Website | Examples |  Classes | Organizer | Dataset
 --------|-------|---------|-----------|-----------|-----------|-----------------
-**AVA** | [arXiv][s1] | [Link][t1] | 57.6k | 80 | Google & Berkeley| -
+**AVA** | [arXiv][s1] | [Link][t1] | 57.6k | 80 | Google & Berkeley| AVA
 
 ## Hand Gestures in Videos
-Dataset | Paper | Website | #Examples |  #Classes | Organizer | SOTA performance
+Dataset | Paper | Website | #Examples |  #Classes | Organizer | Dataset
 --------|-------|---------|-----------|-----------|-----------|-----------------
-Jester | - | [Link][h1]  |  148,092  | 27 | TwentyBN | 95.34%(Ke Yang, NUDT_PDL)
+Jester | - | [Link][h1]  |  148,092  | 27 | TwentyBN | Jester
 
 ## Video Captioning 
-Dataset | Paper | Website | Context | #Examples | Organizer | SOTA performance
+Dataset | Paper | Website | Context | Examples | Organizer | Dataset
 --------|-------|---------|----------|-----------|-----------|-----------------
-MPII-MD |[PDF][v2]| [Link][c2] | movie | 68,337 clips with 68,375 sentences| MPII | -
-MSR-VTT |[PDF][v1]| [Link][c1] | 20 categories| 10,000 clips wth 200,000 sentences| MSR | -
-Charades |[PDF][p4]| [Link][l4] | human activity| 9,848 clips wth 27,847 sentences| AI2 | -
-Densevid |[PDF][v3]| [Link][c3] | event | 20k clips and 100k sentences | Stanford, ActivityNet | -
+MPII-MD |[PDF][v2]| [Link][c2] | movie | 68,337 clips with 68,375 sentences| MPII | MPII-MD
+MSR-VTT |[PDF][v1]| [Link][c1] | 20 categories| 10,000 clips wth 200,000 sentences| MSR | MSR-VTT
+Charades |[PDF][p4]| [Link][l4] | human activity| 9,848 clips wth 27,847 sentences| AI2 | Charades
+Densevid |[PDF][v3]| [Link][c3] | event | 20k clips and 100k sentences | Stanford, ActivityNet | Densevid
 
 ## Video Question Answering 
-Dataset | Paper | Website | Task | #Examples | Organizer | SOTA performance
+Dataset | Paper | Website | Task | Examples | Organizer | Dataset
 --------|-------|---------|----------|-----------|-----------|-----------------
-MovieQA |[PDF][q1]| [Link][a1] | question-answering in movies | 408 movies & 14944 QAs| UToronto | -
-MarioQA |[PDF][q2]| [Link][a2] | reasoning events in game videos | 187,757 examples with 92,874 QAs| POSTECH | -
+MovieQA |[PDF][q1]| [Link][a1] | question-answering in movies | 408 movies & 14944 QAs| UToronto | MovieQA
+MarioQA |[PDF][q2]| [Link][a2] | reasoning events in game videos | 187,757 examples with 92,874 QAs| POSTECH | MarioQA
 
 
 [p1]: http://crcv.ucf.edu/papers/UCF101_CRCV-TR-12-01.pdf

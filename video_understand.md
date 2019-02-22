@@ -6,8 +6,6 @@
   - Video Captioning
   - Temporal Action Detection
 
-**Note: ActivityNet v1.3, Kinetics-600, Moments in time, AVA will be used at [ActivityNet challenge 2018](http://activity-net.org/challenges/2018/)**
-
 ## Video Classification
 Dataset | Paper | Website | Category | #Examples |#Classes | Duration | Organizer | SOTA performance
 --------|-------|---------|----------|-----------|---------|----------|-----------|-----------------

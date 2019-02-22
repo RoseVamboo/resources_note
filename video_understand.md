@@ -1,8 +1,8 @@
 # 视频内容理解方面的paper,code,dataset
 
 Video Understanding
-  -Video Classification
-  -Action Recognition
+  *Video Classification
+  *Action Recognition
   -Video Captioning
   -Temporal Action Detection
 
